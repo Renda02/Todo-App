@@ -119,3 +119,37 @@ body {
   background-color: #d1d8e0;
   margin-bottom: 0.5rem;
 }
+
+.trash,
+.complete {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.todo:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgb(61, 158, 121) 0%,
+    rgb(0, 158, 250) 100%
+  );
+}
+
+.todo:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgba(250, 0, 135, 1) 100%
+  );
+}
+
+.todo:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+}

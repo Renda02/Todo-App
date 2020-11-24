@@ -1,21 +1,27 @@
 
 import React from "react";
-import { RiCloseCircleLine } from "react-icons/ri";
-import { AiOutlinePlusCircle } from "react-icons/ai";
+
+import "./App.css"
+//import { RiCloseCircleLine } from "react-icons/ri";
+//import { AiOutlinePlusCircle } from "react-icons/ai";
 
 import "./App.css";
 
-function Todo() {
-  return (
+function Todo({ text }) {
+//Add Event
+  
+  return (<>
     <div className="todo">
-      <i>
+      {text}
+      {/*<i>
         <RiCloseCircleLine size={30} />
       </i>
 
       <i>
         <AiOutlinePlusCircle size={30} />
-      </i>
+      </i>*/}
     </div>
+    </>
   );
 }
 
